@@ -1,6 +1,5 @@
 import pandas as pd
 import glob
-
 def load_and_preprocess_data(folder_path):
     """
     Loads multiple CSV files, merges them, checks missing values,
