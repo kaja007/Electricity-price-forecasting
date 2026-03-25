@@ -5,10 +5,6 @@ import xgboost as xgb
 import lightgbm as lgb
 from sklearn.model_selection import TimeSeriesSplit
 
-# ==============================
-# XGBOOST TRAINING
-# ==============================
-
 def train_xgboost(X_train, y_train, n_trials=40):
 
     def objective(trial):
